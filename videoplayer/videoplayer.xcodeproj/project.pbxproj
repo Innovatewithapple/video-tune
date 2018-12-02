@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A1AA38054D35857D960D210 /* Pods_videoplayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F0837A26BFF914B0947DA0 /* Pods_videoplayer.framework */; };
+		8462056A216916D100EB8899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84620569216916D100EB8899 /* AppDelegate.swift */; };
+		8462056C216916D100EB8899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462056B216916D100EB8899 /* ViewController.swift */; };
+		8462056F216916D100EB8899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8462056D216916D100EB8899 /* Main.storyboard */; };
+		84620571216916D200EB8899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84620570216916D200EB8899 /* Assets.xcassets */; };
+		84620574216916D200EB8899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84620572216916D200EB8899 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84620566216916D100EB8899 /* videoplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84620569216916D100EB8899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8462056B216916D100EB8899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8462056E216916D100EB8899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84620570216916D200EB8899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84620573216916D200EB8899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84620575216916D200EB8899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE490B3A6AAAE0B4A2C102B /* Pods-videoplayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoplayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-videoplayer/Pods-videoplayer.release.xcconfig"; sourceTree = "<group>"; };
+		ECE04B3C64628C0C7E6DE700 /* Pods-videoplayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoplayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-videoplayer/Pods-videoplayer.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F0837A26BFF914B0947DA0 /* Pods_videoplayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_videoplayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84620563216916D100EB8899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1AA38054D35857D960D210 /* Pods_videoplayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8FC2F58C6D283E2F044D06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2F0837A26BFF914B0947DA0 /* Pods_videoplayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E233CA98CAC55A1ABB438E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECE04B3C64628C0C7E6DE700 /* Pods-videoplayer.debug.xcconfig */,
+				DAE490B3A6AAAE0B4A2C102B /* Pods-videoplayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8462055D216916D100EB8899 = {
+			isa = PBXGroup;
+			children = (
+				84620568216916D100EB8899 /* videoplayer */,
+				84620567216916D100EB8899 /* Products */,
+				6E233CA98CAC55A1ABB438E0 /* Pods */,
+				5B8FC2F58C6D283E2F044D06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84620567216916D100EB8899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84620566216916D100EB8899 /* videoplayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84620568216916D100EB8899 /* videoplayer */ = {
+			isa = PBXGroup;
+			children = (
+				84620569216916D100EB8899 /* AppDelegate.swift */,
+				8462056B216916D100EB8899 /* ViewController.swift */,
+				8462056D216916D100EB8899 /* Main.storyboard */,
+				84620570216916D200EB8899 /* Assets.xcassets */,
+				84620572216916D200EB8899 /* LaunchScreen.storyboard */,
+				84620575216916D200EB8899 /* Info.plist */,
+			);
+			path = videoplayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84620565216916D100EB8899 /* videoplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84620578216916D200EB8899 /* Build configuration list for PBXNativeTarget "videoplayer" */;
+			buildPhases = (
+				15CCCD512F45A89345CB0E7C /* [CP] Check Pods Manifest.lock */,
+				84620562216916D100EB8899 /* Sources */,
+				84620563216916D100EB8899 /* Frameworks */,
+				84620564216916D100EB8899 /* Resources */,
+				CFA0B9C517D257C2B7CB1D7C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = videoplayer;
+			productName = videoplayer;
+			productReference = 84620566216916D100EB8899 /* videoplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8462055E216916D100EB8899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = hv;
+				TargetAttributes = {
+					84620565216916D100EB8899 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 84620561216916D100EB8899 /* Build configuration list for PBXProject "videoplayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8462055D216916D100EB8899;
+			productRefGroup = 84620567216916D100EB8899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84620565216916D100EB8899 /* videoplayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84620564216916D100EB8899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84620574216916D200EB8899 /* LaunchScreen.storyboard in Resources */,
+				84620571216916D200EB8899 /* Assets.xcassets in Resources */,
+				8462056F216916D100EB8899 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15CCCD512F45A89345CB0E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-videoplayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA0B9C517D257C2B7CB1D7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-videoplayer/Pods-videoplayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer-Swift/YouTubePlayer_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-videoplayer/Pods-videoplayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84620562216916D100EB8899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462056C216916D100EB8899 /* ViewController.swift in Sources */,
+				8462056A216916D100EB8899 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8462056D216916D100EB8899 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8462056E216916D100EB8899 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84620572216916D200EB8899 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84620573216916D200EB8899 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84620576216916D200EB8899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84620577216916D200EB8899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84620579216916D200EB8899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE04B3C64628C0C7E6DE700 /* Pods-videoplayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = videoplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihir.videoplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8462057A216916D200EB8899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE490B3A6AAAE0B4A2C102B /* Pods-videoplayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = videoplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihir.videoplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84620561216916D100EB8899 /* Build configuration list for PBXProject "videoplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84620576216916D200EB8899 /* Debug */,
+				84620577216916D200EB8899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84620578216916D200EB8899 /* Build configuration list for PBXNativeTarget "videoplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84620579216916D200EB8899 /* Debug */,
+				8462057A216916D200EB8899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8462055E216916D100EB8899 /* Project object */;
+}

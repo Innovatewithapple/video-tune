@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="videoplayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="78" translatesAutoresizingMaskIntoConstraints="NO" id="o57-cG-zBg">
+                                <rect key="frame" x="17" y="377" width="380" height="63"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBQ-l7-zIk">
+                                        <rect key="frame" x="0.0" y="0.0" width="74.666666666666671" height="63"/>
+                                        <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                        <state key="normal" title="⏮">
+                                            <color key="titleColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="previousTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ntZ-GI-AMc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="weQ-Km-t0v">
+                                        <rect key="frame" x="152.66666666666666" y="0.0" width="74.666666666666657" height="63"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="63" id="MyY-g4-MLY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                        <state key="normal" title="Play">
+                                            <color key="titleColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFF-ot-Iec">
+                                        <rect key="frame" x="305.33333333333331" y="0.0" width="74.666666666666686" height="63"/>
+                                        <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                        <state key="normal" title="⏭">
+                                            <color key="titleColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="nextTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNk-7A-iLr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uHt-2H-ghS" customClass="YouTubePlayerView" customModule="YouTubePlayer_Swift">
+                                <rect key="frame" x="0.0" y="54" width="414" height="274"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="274" id="PfT-Qt-TC5"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="91c-XA-fZV">
+                                <rect key="frame" x="97" y="515" width="220" height="45"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1MC-cy-eAX">
+                                        <rect key="frame" x="35.666666666666657" y="0.0" width="149" height="45"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                        <state key="normal" title="Load Music">
+                                            <color key="titleColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="loadmusic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mGT-ZI-eo8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9HY-Xe-cz9">
+                                <rect key="frame" x="134" y="597" width="146" height="52"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vX-5x-WaS">
+                                        <rect key="frame" x="0.0" y="0.0" width="146" height="52"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <state key="normal" title="Playlist">
+                                            <color key="titleColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playlist:" destination="BYZ-38-t0r" eventType="touchUpInside" id="66o-Lr-3aL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9HY-Xe-cz9" secondAttribute="trailing" constant="134" id="AuD-t3-nrn"/>
+                            <constraint firstItem="9HY-Xe-cz9" firstAttribute="top" secondItem="91c-XA-fZV" secondAttribute="bottom" constant="37" id="N4t-O8-Ra5"/>
+                            <constraint firstItem="91c-XA-fZV" firstAttribute="top" secondItem="o57-cG-zBg" secondAttribute="bottom" constant="75" id="NMY-c4-3AX"/>
+                            <constraint firstItem="9HY-Xe-cz9" firstAttribute="centerX" secondItem="o57-cG-zBg" secondAttribute="centerX" id="R5D-a4-e2X"/>
+                            <constraint firstItem="uHt-2H-ghS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cqg-k4-jHy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="91c-XA-fZV" secondAttribute="trailing" constant="97" id="fvd-1v-WFa"/>
+                            <constraint firstItem="9HY-Xe-cz9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="134" id="hpo-fK-MMd"/>
+                            <constraint firstItem="o57-cG-zBg" firstAttribute="top" secondItem="uHt-2H-ghS" secondAttribute="bottom" constant="49" id="mh4-0c-9zR"/>
+                            <constraint firstItem="uHt-2H-ghS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="myO-bY-2EM"/>
+                            <constraint firstItem="91c-XA-fZV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="oW3-H1-fKF"/>
+                            <constraint firstItem="uHt-2H-ghS" firstAttribute="centerX" secondItem="91c-XA-fZV" secondAttribute="centerX" id="rsc-LS-1Dz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o57-cG-zBg" secondAttribute="trailing" constant="17" id="v8w-2T-FBt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoscreen" destination="uHt-2H-ghS" id="Ifq-Ph-E2H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-100" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>
