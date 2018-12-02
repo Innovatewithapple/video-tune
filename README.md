@@ -11,4 +11,4 @@ This app is only for learning purpose, that is the sample for beginner ios dev..
 3. Play, pause, stop, next, previous button are available.
 
 ## Screenshots:
-![alt-text](videoclip.gif)
+<a href="https://imgflip.com/gif/2nywyl"><img src="https://i.imgflip.com/2nywyl.gif" title="made at imgflip.com"/></a>
